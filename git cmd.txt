@@ -1,0 +1,19 @@
+git ls-fils    //查看远程库文件目录
+git rm --cached "文件" / git rm -r --cached "文件夹" //删除文件或者文件夹
+git init  //远程仓库初始化
+git add . //添加文件到暂存区
+git commit -m "提交内容"  //提交内容
+git push -u origin master      //推送
+git pull origin master     //拉取远程仓库
+git status   //查看仓库状态
+git rebase  //变基
+git merge   //合并
+git reset   //回退版本
+git diff   //查看差异
+
+
+mkdir //创建新目录的命令
+
+echo  //创建文件
+
+cd    //后面打开文件名称

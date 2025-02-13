@@ -1,5 +1,0 @@
-ToolSet: 11.0 w64 (local)@E:\01-App_Install_file\14-clion2024\01-install\bin\mingw
-Ninja: 1.12.0@E:\01-App_Install_file\14-clion2024\01-install\bin\ninja\win\x64\ninja.exe
-Options: 
-
-Options:
