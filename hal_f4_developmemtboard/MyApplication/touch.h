@@ -12,8 +12,8 @@
 #define 	Touch_Y_CMD        0x90  //读取Y轴命令
 //说明：通过调整Touch_READ_TIMES与Touch_Error，可以调整灵敏度与准确性
 //      数字越小，灵敏度越高，但准确性越差，按实际需要调整。
-#define   Touch_READ_TIMES   10    //一次读取触摸值的次数
-#define   Touch_Error        20    //误差
+#define   Touch_READ_TIMES   5    //一次读取触摸值的次数
+#define   Touch_Error        10    //误差
 //X轴与Y轴坐标边界设定
 #define   Touch_X_MAX        3800  //X轴最大值
 #define   Touch_X_MIN        100   //X轴最小值
