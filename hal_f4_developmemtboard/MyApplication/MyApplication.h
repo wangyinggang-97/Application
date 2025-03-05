@@ -3,6 +3,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include "i2c.h"
 #include "spi.h"
 #include "tim.h"
 #include "usart.h"
@@ -22,6 +23,9 @@
 #include "bsp_led.h"
 #include "XPT2046.h"
 #include "touch.h"
+#include "SHT30.h"
+#include "Servo.h"
+
 
 #include "lvgl.h"
 #include "lv_port_disp.h"

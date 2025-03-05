@@ -1,6 +1,6 @@
 #ifndef __MyInit_H__
 #define __MyInit_H__
-
+#include "MyApplication.h"
 //定义结构体类型
 typedef struct
 {

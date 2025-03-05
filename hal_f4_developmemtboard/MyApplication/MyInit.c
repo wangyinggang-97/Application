@@ -35,6 +35,11 @@ static void Peripheral_Set()
 	  lv_port_disp_init();
 	  lv_port_indev_init();
 	
+  	SHT30_Init();
+	  Servo_Init();
+	  
+	  Servo_Test();
+	
     //´¥ÃþÆÁÄ»Ð£×¼	
 //	  SPI_Flash.EraseTotal();
 //	  user_main_printf("spi flash erase ok!!");
@@ -46,7 +51,7 @@ static void Peripheral_Set()
 //    lv_ex_get_started_1();	
 //	  lv_ex_get_started_2();
 //	  lv_ex_get_started_3();
-	  lv_demo_widgets();
+//lv_demo_widgets();
 //      lv_demo_benchmark();
 }
 
